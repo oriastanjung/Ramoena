@@ -11,6 +11,7 @@
   "dependencies": {
     "clsx": "^2.1.0",
     "flickity": "^2.3.0",
+    "jquery": "^3.7.1",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
