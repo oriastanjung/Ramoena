@@ -16,6 +16,7 @@ const DragableCarousel: FC<DragableCarouselProps> = ({ children }) => {
         pageDots: false,
         contain: true,
         prevNextButtons: false,
+        lazyLoad: true
       }} // takes flickity options {}
     >
       {children}
