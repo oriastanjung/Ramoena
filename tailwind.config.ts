@@ -16,9 +16,11 @@ const config: Config = {
           "500" : "#0CE449"
         },
         "gray" : {
+          "100" : "#A8A8AB",
           "500" : "#323437"
         },
         "black" : "#141414",
+        "black-1": "#0E100F",
         "white" : "#FEFCE1",
       }
     },

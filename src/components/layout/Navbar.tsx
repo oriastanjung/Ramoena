@@ -12,7 +12,6 @@ const Navbar: FC<NavbarProps> = ({}) => {
   const [showMenu, setShowMenu] = useState<boolean>(false);
   const setMenu = () => {
     setShowMenu(!showMenu);
-    console.log("click");
   };
   return (
     <header className="fixed top-3 md:top-7 w-full lg:px-4 xl:px-20 z-[100]">

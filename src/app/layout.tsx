@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={clsx(montserrat.className,"bg-black text-white")}>
+      <body className={clsx(montserrat.className,"bg-black-1 text-white")}>
         <Navbar />
         {children}
         </body>
