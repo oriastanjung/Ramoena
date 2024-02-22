@@ -6,7 +6,7 @@ interface HeroProps {
 
 const Hero : FC<HeroProps> = ({}) => {
   return (
-    <div className="min-h-screen relative w-full">
+    <section className="min-h-screen relative w-full">
       <Image
         src="/hero-bg.png"
         alt="Hero Background"
@@ -14,8 +14,11 @@ const Hero : FC<HeroProps> = ({}) => {
         objectFit="cover"
         objectPosition="center"
         quality={100}
-      />{" "}
-    </div>
+      />
+      <div className="relative top-56 z-10">
+        content hero
+      </div>
+    </section>
   );
 }
 
