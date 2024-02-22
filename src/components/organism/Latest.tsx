@@ -1,10 +1,14 @@
+"use client"
 import React, { FC } from "react";
-import DragableCarousel from "../atom/DragableCarousel";
+// import DragableCarousel from "../atom/DragableCarouselFlickity";
+// import DragableCarousel from "../atom/DragableCarouselReactSlick";
 import { PlaceType, PlacesData } from "@/constants/places";
 import PlaceCard from "../atom/PlaceCard";
-
+import dynamic from "next/dynamic";
 interface LatestProps {}
-
+const DragableCarousel = dynamic(() => import('../atom/DragableCarouselFlickity'), {
+  ssr: false // This ensures that the component is not server-side rendered
+});
 const Latest: FC<LatestProps> = ({}) => {
   return (
     <section className="w-full lg:px-4 xl:px-20 mt-9 pt-36 lg:pt-52 mb-24">
