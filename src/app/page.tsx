@@ -1,3 +1,4 @@
+import Benefits from "@/components/organism/Benefits";
 import Categories from "@/components/organism/Categories";
 import Hero from "@/components/organism/Hero";
 import Latest from "@/components/organism/Latest";
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <Latest />
       <Categories />
+      <Benefits />
     </main>
   );
 }
